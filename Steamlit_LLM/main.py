@@ -4,7 +4,7 @@ from openai import OpenAI
 # -----------------------------
 # Configure OpenAI API client
 # -----------------------------
-client = OpenAI(api_key="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")  # <-- put your key here
+client = OpenAI(api_key="")  # <-- put your key here
 
 MODEL_NAME = "gpt-4o-mini"  # fast + cheap + very good
 
